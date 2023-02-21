@@ -1,0 +1,49 @@
+name: tic_tac_toe
+description: Tic tac toe game with firebase integrations.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: 1.0.5
+  go_router: 6.0.6
+  flutter_animate: 3.1.0
+  firebase_core: 2.5.0
+  firebase_auth: 4.2.6
+  cloud_firestore: 4.3.2
+  google_sign_in: 5.4.4
+  get_it: 7.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 2.0.1
+
+flutter:
+  fonts:
+    - family: Prompt
+      fonts:
+        - asset: fonts/Prompt-Black.ttf
+        - asset: fonts/Prompt-BlackItalic.ttf
+        - asset: fonts/Prompt-Bold.ttf
+        - asset: fonts/Prompt-BoldItalic.ttf
+        - asset: fonts/Prompt-ExtraBold.ttf
+        - asset: fonts/Prompt-ExtraBoldItalic.ttf
+        - asset: fonts/Prompt-ExtraLight.ttf
+        - asset: fonts/Prompt-ExtraLightItalic.ttf
+        - asset: fonts/Prompt-Italic.ttf
+        - asset: fonts/Prompt-Light.ttf
+        - asset: fonts/Prompt-LightItalic.ttf
+        - asset: fonts/Prompt-Medium.ttf
+        - asset: fonts/Prompt-MediumItalic.ttf
+        - asset: fonts/Prompt-Regular.ttf
+        - asset: fonts/Prompt-SemiBold.ttf
+        - asset: fonts/Prompt-SemiBoldItalic.ttf
+        - asset: fonts/Prompt-Thin.ttf
+        - asset: fonts/Prompt-ThinItalic.ttf
+  uses-material-design: true
