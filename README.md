@@ -20,5 +20,5 @@ After downloading the above tools for development you will need to run `flutterf
 After logging in to your account, in the root of the project, run `flutterfire configure`.
 
 Once all this is complete the required files will have been generated and you can run the app:
-`flutter pub get`
-`flutter run`
+- `flutter pub get`
+- `flutter run`
