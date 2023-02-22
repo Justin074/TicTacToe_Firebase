@@ -16,7 +16,7 @@ In the Authentication section on firebase go to sign-in-method and select the go
 Once you did this go to the settings for the sign in method and get the `client id`.
 After this is done replace the text section noting `client id` in the `auth_repository.dart` file of the project.
 
-After downloading the above tools for development you will need to run `flutterfire login` once you created a firebase account. 
+After downloading the above tools for development you will need to run `firebase login` once you created a firebase account. 
 After logging in to your account, in the root of the project, run `flutterfire configure`.
 
 Once all this is complete the required files will have been generated and you can run the app:
