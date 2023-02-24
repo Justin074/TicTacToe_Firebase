@@ -8,6 +8,7 @@ In order to use this project go ahead and download the following:
 - [Flutter 3.7+](https://docs.flutter.dev/development/tools/sdk/releases)
 - [Dart SDK 2.19+](https://docs.flutter.dev/development/tools/sdk/releases)
 - [FlutterFire Cli](https://firebase.flutter.dev/docs/cli/)
+- [Firebase Cli](https://firebase.google.com/docs/cli)
 
 Before getting started you will need to create a firebase account and in the build section you will 
 need to create a Firestore database. Once a test database has been created you can move on to setting up the auth to get into the app.
